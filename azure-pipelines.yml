@@ -20,10 +20,10 @@ variables:
   environmentName: 'python-cicd-7691'
 
   # Project root folder. Point to the folder containing manage.py file.
-  projectRoot: $(System.DefaultWorkingDirectory)
-
-  # Python version: 3.7
-  pythonVersion: '3.7'
+  projectRoot: $(System.DefaultWorkingDirectory)/Application
+  
+  # Python version: 3.9
+  pythonVersion: '3.9'
 
 stages:
 - stage: Build
